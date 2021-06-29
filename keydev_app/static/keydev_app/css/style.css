@@ -1,0 +1,176 @@
+b,
+body,
+div,
+em,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+i,
+img,
+li,
+nav,
+p,
+section,
+span,
+tr,
+ul {
+	border: 0;
+	outline: 0;
+	vertical-align: baseline
+}
+
+body {
+	line-height: 1;
+	overflow-x: hidden
+}
+
+footer,
+nav,
+section {
+	display: block
+}
+
+nav ul {
+	list-style: none
+}
+
+a {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: 0 0;
+	text-decoration: none
+}
+
+input {
+	vertical-align: middle
+}
+
+li {
+	list-style: none
+}
+
+body,
+html {
+	width: 100%;
+	height: 100%;
+	background: #fff
+}
+
+html {
+	-webkit-tap-highlight-color: transparent
+}
+
+body {
+	font: normal 75% Arial, Helvetica, sans-serif
+}
+
+#particles-js {
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	background-image: url('');
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat
+}
+
+.description {
+	padding-bottom: 30px;
+	font-size: 16px;
+	text-align: center;
+	color: #2c2a2d;
+	font-family: Ubuntu, sans-serif;
+	line-height: 1.7
+}
+
+@media screen and (max-width:992px) {
+	.sections {
+		height: 900px
+	}
+}
+
+@media screen and (max-width:768px) {
+	.services {
+		height: 1500px
+	}
+}
+
+@media screen and (max-width:768px) {
+	#team {
+		height: 1000px
+	}
+}
+
+@media screen and (max-width:768px) {
+	.service-card {
+		margin: auto
+	}
+}
+
+@media screen and (max-width:768px) {
+	.page-head {
+		margin: auto;
+		left: 0!important;
+		right: 0!important
+	}
+}
+
+@media screen and (max-width:768px) {
+	#brand-image {
+		margin-top: -15px
+	}
+}
+
+
+@media screen and (max-width:768px) {
+	#services {
+		margin-top: 300px
+	}
+}
+
+.page-head {
+	position: absolute;
+	top: 150px;
+	right: 70px;
+	left: 70px
+}
+
+.main-heading-2 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-weight: 400;
+	font-size: 30px;
+	color: #5ca8b5
+}
+
+.main-image {
+	width: inherit
+}
+
+html {
+	width: inherit
+}
+
+.navbar-collapse collapse show {
+    position:inherit;
+}
+
+.swal2-styled.swal2-confirm {
+    background-color:#dd4722 !important;
+}
+
+.swal2-success-line-tip {
+    background-color:#5ca8b5 !important;
+}
+
+.swal2-success-line-long {
+    background-color:#5ca8b5 !important;
+}

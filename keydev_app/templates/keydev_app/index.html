@@ -1,0 +1,296 @@
+{% load static %}
+{% load sweetify %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <title>Key Dev</title>
+    <link rel="shortcut icon" type="image/png" href="{% static 'keydev_app/img/favicon.ico' %}"/>
+    <link rel="stylesheet" href="{% static 'keydev_app/bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Actor">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alata">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arbutus">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Asul">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Autour+One">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Balthazar">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bangers">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu+Mono">
+    <!--<link rel="stylesheet" href="{% static 'keydev_app/fonts/fontawesome-all.min.css' %}">
+    <link rel="stylesheet" href="{% static 'keydev_app/fonts/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="{% static 'keydev_app/fonts/fontawesome5-overrides.min.css' %}">
+    -->
+    <link rel="stylesheet" href="{% static 'keydev_app/fonts/ionicons.min.css' %}">
+    <script src="https://kit.fontawesome.com/1f5e4d9175.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{% static 'keydev_app/css/-Team-Rotating-Cards-BS4-.css' %}">
+    <link rel="stylesheet" href="{% static 'keydev_app/css/animated-services.css' %}">
+    <link rel="stylesheet" href="{% static 'keydev_app/css/Bold-BS4-Animated-Back-To-Top.css' %}">
+    <link rel="stylesheet" href="{% static 'keydev_app/css/Cool-Navbar.css' %}">
+    <link rel="stylesheet" href="{% static 'keydev_app/css/Footer-1-basic-Irlene-Galiza.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="{% static 'keydev_app/css/Modern-Contact-Form.css' %}">
+    <link rel="stylesheet" href="{% static 'keydev_app/css/Rounded-Button.css' %}">
+    <link rel="stylesheet" href="{% static 'keydev_app/css/style.css' %}">
+</head>
+
+<body>
+
+    <div id="top"></div>
+    <nav class="navbar navbar-light navbar-expand-md fixed-top text-capitalize bg-inverse scrolling-navbar" id="main-navbar" style="height: 80.8px;">
+        <div class="container"><a class="navbar-brand" href="{% url 'index'%}"><img data-aos="fade-right" data-aos-duration="1500" id="brand-image" src="{% static 'keydev_app/img/logo.png' %}" style="width: 90px;"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav mr-auto w-100 justify-content-end" data-aos="fade-down" data-aos-duration="1500" style="font-size: 14px;">
+                    <li class="nav-item"><a class="nav-link" href="#top">Главная</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Услуги</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#team">О нас</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div style="overflow-x:hidden" class="container page-head">
+        <div class="row page-head-row">
+            <div class="col-md-6" data-aos="fade-right" data-aos-duration="1500" data-aos-offset="1000px">
+                <h1 class="main-heading" style="font-family: Ubuntu, sans-serif;">Key Dev</h1>
+                <h3 class="main-heading-2" style="font-family: Ubuntu, sans-serif;">ВАШ МОСТ К УСПЕХУ</h3>
+                <p class="description"><br>Высококвалифицированная команда, которая специализируется на предоставлении аутсорс услуг в области информационных технологий и разработке веб приложений<br><br></p>
+                <div><button class="add"><a class="main-button" href="#contact">Связаться</a></button></div>
+            </div>
+            <div class="col-md-6 head-image" data-aos="fade-left" data-aos-duration="1500"><img data-aos="fade-left" data-aos-duration="1500" class="main-image" src="{% static 'keydev_app/img/kisspng-graphic-design-brand-product-design-human-behavior-5b8ac78e999f84.3178772815358217106293.png' %}"></div>
+        </div>
+    </div><!-- particles.js container -->
+    <div id="particles-js"></div>
+
+<!-- scripts -->
+    <script src="{% static 'keydev_app/js/particles.js' %}"></script>
+    <script src="{% static 'keydev_app/js/app.js' %}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    {% sweetify %}
+    <section id="services" class="services sections">
+        <div class="container-md section-title">
+            <div class="text-center" data-aos="fade-down" data-aos-duration="1500">
+                <h4 class="d-inline-block justify-content-lg-center custom-heading">НАШИ УСЛУГИ</h4>
+                <div style="font-size: 12px;">
+                    <p class="d-inline-block description">Мы предоставляем следующие виды услуг<br>&nbsp; &nbsp;&nbsp;</p>
+                </div>
+            </div>
+            <div class="row" style="height: 277.6px;">
+                <div class="col-12 text-center col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-right" data-aos-duration="1500">
+                    <div class="text-center icon-box service-card">
+                        <div class="icon"><i class="fab fa-dev" style="margin-bottom: 15px;"></i>
+                            <h4 class="title">Разработка веб приложений<a href="#"></a></h4>
+                            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi<br>&nbsp; &nbsp; &nbsp;&nbsp;</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 text-center col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-right" data-aos-duration="1500">
+                    <div class="text-center icon-box service-card">
+                        <div class="icon"><i class="fas fa-network-wired" style="margin-bottom: 15px;"></i>
+                            <h4 class="title">Сетевые работы<a href="#"></a></h4>
+                            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi<br>&nbsp; &nbsp; &nbsp;&nbsp;</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 text-center col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" style="overflow-x: hidden" data-aos="fade-left" data-aos-duration="1500">
+                    <div class="text-center icon-box service-card">
+                        <div class="icon"><i class="fab fa-microsoft" style="margin-bottom: 15px;"></i>
+                            <h4 class="title">Работа с програмным обеспечением<a href="#"></a></h4>
+                            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi<br>&nbsp; &nbsp; &nbsp;&nbsp;</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 text-center col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" style="overflow-x: hidden" data-aos="fade-left" data-aos-duration="1500">
+                    <div class="text-center icon-box service-card">
+                        <div class="icon"><i class="fas fa-chalkboard" style="margin-bottom: 15px;"></i>
+                            <h4 class="title">Профилактика компьютерной техники<a href="#"></a></h4>
+                            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi<br>&nbsp; &nbsp; &nbsp;&nbsp;</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="team" class="sections" style="font-size: 14px;">
+        <h4 class="text-center custom-heading">НАША КОМАНДА</h4>
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-md-4 col-lg-4" data-aos="fade-right" data-aos-duration="1500">
+                    <div class="card-container-imagia">
+                        <div class="card-imagia">
+                            <div class="front-imagia">
+                                <div class="cover-imagia cover-gradient"></div>
+                                <div class="user-imagia"><img class="rounded-circle" alt="" src="https://media-exp1.licdn.com/dms/image/C4E03AQFMIrxndsG2zA/profile-displayphoto-shrink_400_400/0/1613104924086?e=1628121600&amp;v=beta&amp;t=iGfGKgQ2VCq6Lf-DUjWdilehqO6XYBd0mFRbVY8NICY" style="width: 135px;"></div>
+                                <div class="py-1 px-3 text-center">
+                                    <h5 class="text-capitalize m-0">Нурсултан</h5>
+                                    <p class="text-secondary mb-3">Сооснователь и Генеральный Директор</p>
+                                </div>
+                                <div class="footer-imagia w-100 text-secondary position-absolute text-center py-2"><span><i class="fa fa-plus"></i> More info</span></div>
+                            </div>
+                            <div class="back-imagia">
+                                <div class="d-flex align-items-center h-100 px-3">
+                                    <div>
+                                        <h3 class="text-center card-back-heading">Бердиев Нурсултан</h3>
+                                        <p class="text-center">Бизнес Аналитик / Python разработчик</p>
+                                        <p class="text-center">Базы Данных (MSSQL, MySQL, PLSQL)</p>
+                                        <p class="text-center">Python (Scikit-learn, pandas, NumPy, bs4)</p>
+                                        <p class="text-center">FullStack веб разработка (Python Django, Flask,&nbsp;<br>JavaScript, HTML, CSS)<br></p>
+                                    </div>
+                                </div>
+                                <div class="footer-imagia w-100 text-secondary position-absolute text-center py-2">
+                                    <div class="social-imagia text-center">
+                                        <a class="m-2" href="#"><i class="fa fa-facebook"></i></a>
+                                        <a class="m-2" href="#"><i class="fa fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4" data-aos="fade-left" data-aos-duration="1500" style="overflow-x:hidden">
+                    <div class="card-container-imagia">
+                        <div class="card-imagia">
+                            <div class="front-imagia">
+                                <div class="cover-imagia cover-gradient-1"></div>
+                                <div class="user-imagia"><img class="rounded-circle" alt="" src="https://media-exp1.licdn.com/dms/image/C4E03AQEjMu1cFpknwQ/profile-displayphoto-shrink_800_800/0/1620827794919?e=1628121600&v=beta&t=JrMoYxQN-dnwB1w3t4_S_NiR3UDQmb4_6B47n4HEkYg" style="width: 135px;"></div>
+                                <div class="py-1 px-3 text-center">
+                                    <h5 class="text-capitalize m-0">Эйнар</h5>
+                                    <p class="text-secondary mb-3">Сооснователь</p>
+                                </div>
+                                <div class="footer-imagia w-100 text-secondary position-absolute text-center py-2"><span><i class="fa fa-plus"></i> More info</span></div>
+                            </div>
+                            <div class="back-imagia">
+                                <div class="d-flex align-items-center h-100 px-3">
+                                    <div>
+                                        <h3 class="text-center card-back-heading">Эйнар Токтомамбетов</h3>
+                                        <p class="text-center">Системный/Сетевой Администратор</p>
+                                        <p class="text-center">Windows, Linux</p>
+                                        <p class="text-center">LAN, WAN, VLAN: Cisco IOS, TCP/IP, IP Addressing and Routing, VPN</p>
+                                        <p class="text-center">FullStack веб разработка (Python Django, Flask,&nbsp;<br>JavaScript, HTML, CSS)<br></p>
+                                    </div>
+                                </div>
+                                <div class="footer-imagia w-100 text-secondary position-absolute text-center py-2">
+                                    <div class="social-imagia text-center">
+                                        <a class="m-2" href="#"><i class="fa fa-facebook"></i></a>
+                                        <a class="m-2" href="#"><i class="fa fa-linkedin"></i></a>
+                                        <!--<a class="m-2" href="#"><i class="fa fa-twitter"></i></a>-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               <!-- <div class="col-md-6 col-lg-4" data-aos="fade-left" data-aos-duration="1500">
+                    <div class="card-container-imagia">
+                        <div class="card-imagia">
+                            <div class="front-imagia">
+                                <div class="cover-imagia"><img class="w-100" alt="" src="https://unsplash.it/720/500?image=1067"></div>
+                                <div class="user-imagia"><img class="rounded-circle" alt="" src="https://unsplash.it/120/120?image=64"></div>
+                                <div class="py-1 px-3 text-center">
+                                    <h5 class="text-capitalize m-0">John Doe</h5>
+                                    <p class="text-secondary mb-3">Subtitle </p>
+                                    <p><em>Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves. </em></p>
+                                </div>
+                                <div class="footer-imagia w-100 text-secondary position-absolute text-center py-2"><span><i class="fa fa-plus"></i> More info</span></div>
+                            </div>
+                            <div class="back-imagia">
+                                <div class="d-flex align-items-center h-100 px-3">
+                                    <div>
+                                        <h3 class="text-center">Lorem Ipsum</h3>
+                                        <p class="text-center">Et hanc quidem praeter oppida multa duae civitates exornant Seleucia opus Seleuci regis, et Claudiopolis quam deduxit coloniam Claudius Caesar. Isaura enim antehac nimium potens, olim subversa ut rebellatrix interneciva aegre vestigia claritudinis pristinae monstrat admodum pauca. </p>
+                                    </div>
+                                </div>
+                                <div class="footer-imagia w-100 text-secondary position-absolute text-center py-2">
+                                    <div class="social-imagia text-center"><a class="m-2" href="#"><i class="fa fa-facebook"></i></a><a class="m-2" href="#"><i class="fa fa-linkedin"></i></a><a class="m-2" href="#"><i class="fa fa-twitter"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> !-->
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="getintouch">
+        <div class="container modern-form">
+            <div class="text-center">
+                <h4 class="text-center custom-heading">СВЯЖИТЕСЬ С НАМИ</h4>
+            </div>
+            <div class="modern-form__form-container">
+                <form method="POST", action=".">
+                    {% csrf_token %}
+                    <div class="form-row">
+                        <div class="col-md col-contact">
+                            <div class="form-group modern-form__form-group--padding-r">
+                                <input class="form-control input input-tr" type="text" name="name" placeholder="{{name}}" required>
+                                <div class="line-box">
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md col-contact">
+                            <div class="form-group modern-form__form-group--padding-l">
+                                <input class="form-control input input-tr" type="email" name="email" placeholder="{{email}}" required>
+                                <div class="line-box">
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md col-contact">
+                            <div class="form-group modern-form__form-group--padding-l">
+                                <input class="form-control input input-tr" type="tel" name="phone" placeholder="{{phone}}" required>
+                                <div class="line-box">
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col">
+                            <div class="form-group modern-form__form-group--padding-t"><textarea class="form-control input modern-form__form-control--textarea" name="message" placeholder="{{message}}" required></textarea>
+                                <div class="line-box">
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col text-center"><button class="btn btn-primary submit-now" type="submit">Отправить</button></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <div class="footer-basic">
+        <footer>
+            <div class="social">
+                <a href="https://www.instagram.com/key_dev.kg/" target="_blank">
+                    <i class="icon ion-social-instagram"></i></a>
+                <a href="#">
+                    <i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#top">Главная</a></li>
+                <li class="list-inline-item"><a href="#services">Услуги</a></li>
+                <li class="list-inline-item"><a href="#team">О Нас</a></li>
+                <li class="list-inline-item"><a href="#contact">Контакты</a></li>
+            </ul>
+            <p class="copyright">ОсОО "Кей Дев" © 2021</p>
+        </footer>
+    </div><a class="cd-top js-cd-top cd-top--fade-out cd-top--show" style="background-image:url('/static/keydev_app/img/cd-top-arrow.svg')" href="#0">Top</a>
+
+    <script src="{% static 'keydev_app/js/jquery.min.js' %}"></script>
+    <script src="{% static 'keydev_app/bootstrap/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'keydev_app/js/bs-init.js' %}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="{% static 'keydev_app/js/app.js' %}"></script>
+    <script src="{% static 'keydev_app/js/Bold-BS4-Animated-Back-To-Top.js' %}"></script>
+    <script src="{% static 'keydev_app/js/Cool-Navbar.js' %}"></script>
+    <script src="{% static 'keydev_app/js/particles.js' %}"></script>
+    <script src="{% static 'keydev_app/js/particles.min.js' %}"></script>
+    <script src="{% static 'keydev_app/js/scroll-to.js' %}"></script>
+</body>
+
+</html>
